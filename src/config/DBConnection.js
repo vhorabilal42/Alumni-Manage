@@ -5,11 +5,7 @@ const databaseConnection = async () => {
     await mongoose
     .connect(process.env.DATABASE_URL)
     .then(() => {
-      console.log("database connection succefully {DBConnection.js}");
-      console.log("Hello Bilal");
-      console.log("");
-      
-      
+      console.log("database connection succefully {DBConnection.js}");      
     })
     
     .catch((error) => {
