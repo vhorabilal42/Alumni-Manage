@@ -7,6 +7,8 @@ const databaseConnection = async () => {
     .then(() => {
       console.log("database connection succefully {DBConnection.js}");
       console.log("Hello Bilal");
+      console.log("");
+      
       
     })
     
